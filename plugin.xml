@@ -16,8 +16,10 @@
     <license>MIT</license>
 
     <js-module src="www/fullscreenimage.js" name="FullScreenImage">
-        <clobbers target="window.FullScreenImage" />
+        <clobbers target="FullScreenImage" />
     </js-module>
+    
+    <asset src="www/fullscreenimage.js" target="js/fullscreenimage.js" />
 
     <!-- ios -->
      <platform name="ios">
